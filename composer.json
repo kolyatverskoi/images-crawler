@@ -1,0 +1,16 @@
+{
+    "name": "kolyatverskoi/images-crawler",
+    "description": "Crawler of the site images",
+    "license": "MIT",
+    "require": {
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImagesCrawler\\": "src/"
+        }
+    }
+}
